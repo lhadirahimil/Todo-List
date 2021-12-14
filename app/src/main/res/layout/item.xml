@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp"
+    android:padding="4dp"
+    android:layout_gravity="center"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layoutDirection="rtl">
+    <CheckBox
+        android:id="@+id/todo_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:buttonTint="@color/blue"
+        android:fontFamily="@font/iran_yekan_regular"
+        android:text="مطالعه درس های تخصصی"/>
+</androidx.cardview.widget.CardView>

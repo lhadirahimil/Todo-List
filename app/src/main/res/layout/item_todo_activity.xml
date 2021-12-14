@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:layoutDirection="rtl"
+    android:padding="4dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <CheckBox
+            android:id="@+id/todo_checkbox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="9"
+            android:buttonTint="@color/blue"
+            android:checked="false"
+            android:fontFamily="@font/iran_yekan_regular"
+            android:text="مطالعه درس های تخصصی" />
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:src="@drawable/delete"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

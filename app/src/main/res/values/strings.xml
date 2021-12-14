@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">todo_list</string>
+    <string name="todo_list">تودو لیست</string>
+    <string name="description">کاراتو دقیق تر انجام بده</string>
+</resources>
